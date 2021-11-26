@@ -1,0 +1,21 @@
+{
+    "name": "FlyLowCode/FlyFlow",
+    "description": "基于thinkphp6的一键curd库",
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "license": "Apache2.0",
+    "authors": [
+        {
+            "name": "NickBai",
+            "email": "876337011@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "flyflow\\": "src"
+        }
+    }
+}
